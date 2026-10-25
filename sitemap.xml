@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yallashoot-today.github.io/yshoot-autos/index.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yallashoot-today.github.io/yshoot-autos/today.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yallashoot-today.github.io/yshoot-autos/tomorrow.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yallashoot-today.github.io/yshoot-autos/yesterday.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yallashoot-today.github.io/yshoot-autos/leagues.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مباريات اليوم بث مباشر - يلا شوت الجديد - يلا شوت الجديد</title>
+    <meta name="description" content="تابع جدول مباريات اليوم والغد وبث مباشر حصري عبر يلا شوت الجديد (YShoot Autos) بدون تقطيع وبأعلى جودة لكافة البطولات.">
+    <meta name="google-site-verification" content="b9e2c5873d7acc71">
+    <link rel="canonical" href="https://yshoot.autos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@500;700;800;900&family=Almarai:wght@400;700;800&family=Readex+Pro:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #15803d;
+            --accent: #16a34a;
+            --bg: #08100b;
+            --surface: #0f1e15;
+            --border: #1b3324;
+            --text: #ffffff;
+            --text-dim: #94a3b8;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; font-family: 'Cairo', sans-serif; }
+        body { background:var(--bg); color:var(--text); line-height:1.6; min-height:100vh; }
+        header { background:var(--surface); border-bottom:1px solid var(--border); padding:1rem 1.5rem; position:sticky; top:0; z-index:100; }
+        .header-wrap { max-width:1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; }
+        .logo { display:flex; align-items:center; gap:0.6rem; text-decoration:none; color:var(--text); }
+        .logo-icon { background:linear-gradient(135deg, var(--primary), var(--accent)); color:#fff; width:42px; height:42px; display:flex; align-items:center; justify-content:center; border-radius:10px; font-weight:900; font-size:1.2rem; }
+        .logo-title { font-size:1.45rem; font-weight:900; margin:0; }
+        .nav-links { display:flex; gap:0.5rem; flex-wrap:wrap; }
+        .kw-link { background:rgba(255,255,255,0.05); color:var(--text); padding:0.4rem 0.9rem; border-radius:6px; text-decoration:none; font-size:0.85rem; font-weight:700; transition:0.2s; border:1px solid var(--border); }
+        .kw-link:hover { background:var(--primary); color:#fff; }
+        .container { max-width:1200px; margin:1.5rem auto; padding:0 1rem; }
+        .hero { background:linear-gradient(135deg, rgba(255,255,255,0.03), rgba(0,0,0,0.5)), var(--surface); border:1px solid var(--border); border-radius:16px; padding:2rem; margin-bottom:2rem; text-align:center; }
+        .hero h1 { font-size:1.85rem; font-weight:900; margin-bottom:0.8rem; color:#fff; }
+        .hero p { color:var(--text-dim); max-width:750px; margin:0 auto 1.5rem; font-size:0.95rem; }
+        .tabs { display:flex; justify-content:center; gap:0.6rem; margin-bottom:2rem; flex-wrap:wrap; }
+        .tab-btn { background:var(--surface); border:1px solid var(--border); color:var(--text); padding:0.6rem 1.4rem; border-radius:8px; text-decoration:none; font-weight:800; font-size:0.95rem; transition:0.2s; }
+        .tab-btn.active, .tab-btn:hover { background:var(--primary); border-color:var(--primary); color:#fff; }
+        .matches-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:1.2rem; margin-bottom:2.5rem; }
+        .match-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:1.25rem; transition:0.2s; }
+        .match-card:hover { transform:translateY(-3px); border-color:var(--primary); box-shadow:0 8px 24px rgba(0,0,0,0.4); }
+        .match-header { display:flex; justify-content:space-between; margin-bottom:1rem; font-size:0.85rem; }
+        .m-badge { padding:0.25rem 0.65rem; border-radius:5px; font-weight:800; font-size:0.75rem; }
+        .m-badge.live { background:#dc2626; color:#fff; animation:pulse 1.5s infinite; }
+        .m-badge.upcoming { background:#334155; color:#94a3b8; }
+        .m-badge.ended { background:#1e293b; color:#64748b; }
+        @keyframes pulse { 0%{opacity:1} 50%{opacity:0.6} 100%{opacity:1} }
+        .match-teams { display:flex; justify-content:space-between; align-items:center; margin-bottom:1.2rem; }
+        .team { flex:1; text-align:center; font-weight:800; font-size:1.05rem; }
+        .vs { padding:0 0.8rem; text-align:center; }
+        .score-box { font-size:1.15rem; color:var(--accent); font-weight:900; background:rgba(0,0,0,0.3); padding:0.2rem 0.6rem; border-radius:6px; }
+        .match-footer { display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border); padding-top:0.85rem; }
+        .watch-btn { background:linear-gradient(135deg, var(--primary), var(--accent)); color:#fff; text-decoration:none; padding:0.45rem 1rem; border-radius:6px; font-weight:800; font-size:0.85rem; transition:0.2s; }
+        .watch-btn:hover { opacity:0.9; }
+        .section-title { font-size:1.35rem; font-weight:900; margin-bottom:1.2rem; border-right:4px solid var(--primary); padding-right:0.65rem; }
+        footer { background:var(--surface); border-top:1px solid var(--border); padding:2rem 1rem; text-align:center; margin-top:3rem; font-size:0.85rem; color:var(--text-dim); }
+        .footer-links { display:flex; justify-content:center; gap:1.5rem; margin-bottom:1rem; flex-wrap:wrap; }
+        .footer-links a { color:var(--accent); text-decoration:none; font-weight:700; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-wrap">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚽</div>
+                <h1 class="logo-title">يلا شوت الجديد</h1>
+            </a>
+            <div class="nav-links">
+                <a href="https://yshoot.autos" class="kw-link" title="يلا شوت الجديد">يلا شوت الجديد</a><a href="https://yshoot.autos" class="kw-link" title="yshoot">yshoot</a><a href="https://yshoot.autos" class="kw-link" title="يلا شوت لايف">يلا شوت لايف</a><a href="https://yshoot.autos" class="kw-link" title="بث مباشر yshoot بدون تقطيع">بث مباشر yshoot بدون تقطيع</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>يلا شوت الجديد | أهم مباريات اليوم والغد بث مباشر 2026</h1>
+            <p>مرحباً بك في شبكة يلا شوت الجديد (YShoot Autos) لمتابعة البث المباشر وجدول النتائج المحدث لحظة بلحظة لجميع الدوريات والبطولات العالمية.</p>
+            <div class="tabs">
+                <a href="index.html" class="tab-btn active">مباريات اليوم</a>
+                <a href="tomorrow.html" class="tab-btn ">مباريات الغد</a>
+                <a href="yesterday.html" class="tab-btn ">نتائج الأمس</a>
+                <a href="leagues.html" class="tab-btn ">أهم البطولات</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">جدول مباريات اليوم (2026-10-25)</h2><div class="matches-grid"><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/224.png" alt="إنتر ميلان" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>إنتر ميلان</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/228.png" alt="فيورنتينا" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>فيورنتينا</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 2:30 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر إنتر ميلان ضد فيورنتينا على يلا شوت الجديد">بث مباشر إنتر ميلان ضد فيورنتينا 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/144.png" alt="أتلتيك بلباو" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>أتلتيك بلباو</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/140.png" alt="خيتافي" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>خيتافي</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 4:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر أتلتيك بلباو ضد خيتافي على يلا شوت الجديد">بث مباشر أتلتيك بلباو ضد خيتافي 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/351.png" alt="هوفنهايم" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>هوفنهايم</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/333.png" alt="باير ليفركوزن" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>باير ليفركوزن</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:30 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر هوفنهايم ضد باير ليفركوزن على يلا شوت الجديد">بث مباشر هوفنهايم ضد باير ليفركوزن 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/105.png" alt="مانشستر يونايتد" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>مانشستر يونايتد</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/50.png" alt="بورنموث" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>بورنموث</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر مانشستر يونايتد ضد بورنموث على يلا شوت الجديد">بث مباشر مانشستر يونايتد ضد بورنموث 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/10.png" alt="كريستال بالاس" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>كريستال بالاس</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/116.png" alt="نيوكاسل يونايتد" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>نيوكاسل يونايتد</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر كريستال بالاس ضد نيوكاسل يونايتد على يلا شوت الجديد">بث مباشر كريستال بالاس ضد نيوكاسل يونايتد 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/108.png" alt="ليفربول" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>ليفربول</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/38.png" alt="برايتون" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>برايتون</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر ليفربول ضد برايتون على يلا شوت الجديد">بث مباشر ليفربول ضد برايتون 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/11-1.png" alt="هال سيتي" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>هال سيتي</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/63.png" alt="برينتفورد" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>برينتفورد</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر هال سيتي ضد برينتفورد على يلا شوت الجديد">بث مباشر هال سيتي ضد برينتفورد 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/471.png" alt="موناكو" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>موناكو</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/478.png" alt="ليل" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>ليل</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر موناكو ضد ليل على يلا شوت الجديد">بث مباشر موناكو ضد ليل 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/232.png" alt="أتالانتا" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>أتالانتا</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/254.png" alt="فروزينوني" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>فروزينوني</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 5:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر أتالانتا ضد فروزينوني على يلا شوت الجديد">بث مباشر أتالانتا ضد فروزينوني 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/158.png" alt="سيلتا فيجو" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>سيلتا فيجو</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/146.png" alt="ريال بيتيس" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>ريال بيتيس</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 6:15 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر سيلتا فيجو ضد ريال بيتيس على يلا شوت الجديد">بث مباشر سيلتا فيجو ضد ريال بيتيس 📺</a>
+        </div>
+    </div><div class="match-card ended">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge ended">انتهت</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/5285.png" alt="عمان تحت 17" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>عمان تحت 17</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/23459.png" alt="قطر تحت 17" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>قطر تحت 17</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 6:45 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر عمان تحت 17 ضد قطر تحت 17 على يلا شوت الجديد">بث مباشر عمان تحت 17 ضد قطر تحت 17 📺</a>
+        </div>
+    </div><div class="match-card live">
+        <div class="match-header">
+            <span class="m-tourn">مباراة حصرية</span>
+            <span class="m-badge live">لايف مباشر</span>
+        </div>
+        <div class="match-teams">
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/8200-1.png" alt="الأهلي" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>الأهلي</div></div>
+            <div class="vs"><div class="score-box">0 - 0</div></div>
+            <div class="team"><img src="https://yalla-shoot.work/wp-content/uploads/2026/10/67967.png" alt="كيتارا" style="width:38px;height:38px;object-fit:contain;margin-bottom:6px;" onerror="this.style.display='none'"><div>كيتارا</div></div>
+        </div>
+        <div class="match-footer">
+            <span class="m-time">⏰ 7:00 PM</span>
+            <a href="https://yshoot.autos" class="watch-btn" title="بث مباشر الأهلي ضد كيتارا على يلا شوت الجديد">بث مباشر الأهلي ضد كيتارا 📺</a>
+        </div>
+    </div></div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://yshoot.autos" title="يلا شوت الجديد الرسمي">يلا شوت الجديد الرسمي</a>
+            <a href="sitemap.xml">خريطة XML</a>
+            <a href="sitemap.txt">خريطة TXT</a>
+            <a href="robots.txt">robots.txt</a>
+        </div>
+        <p>جميع الحقوق محفوظة © 2026 - شبكة يلا شوت الجديد (YShoot Autos)</p>
+    </footer>
+</body>
+</html>
