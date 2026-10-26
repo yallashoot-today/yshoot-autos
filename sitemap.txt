@@ -3,3 +3,6 @@ https://yallashoot-today.github.io/yshoot-autos/today.html
 https://yallashoot-today.github.io/yshoot-autos/tomorrow.html
 https://yallashoot-today.github.io/yshoot-autos/yesterday.html
 https://yallashoot-today.github.io/yshoot-autos/leagues.html
+https://yallashoot-today.github.io/yshoot-autos/article-live-guide.html
+https://yallashoot-today.github.io/yshoot-autos/article-tournaments-coverage.html
+https://yallashoot-today.github.io/yshoot-autos/article-bein-sports-channels.html
